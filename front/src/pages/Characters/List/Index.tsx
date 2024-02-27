@@ -1,13 +1,9 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect } from 'react';
 import { useCharacters } from '@pages/Characters/hooks';
 import './index.scss';
 
-
-
 export const Characters: FC = () => {
-
   const { fetchCharacters, characters } = useCharacters();
-
 
   useEffect(() => {
     fetchCharacters();
