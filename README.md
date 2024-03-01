@@ -1,0 +1,1 @@
+[![CI](https://github.com/ericuss/sample-project-with-react-storybook-and-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/ericuss/sample-project-with-react-storybook-and-testing/actions/workflows/ci.yml)
