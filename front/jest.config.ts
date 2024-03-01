@@ -37,6 +37,8 @@ const jestConfig: JestConfigWithTsJest = {
         '^@styles/(.*)$': '<rootDir>/src/styles/$1',
       },
     // moduleNameMapper: paths,
+    
+    reporters: [ "default", "jest-junit" ]
 };
 
 export default jestConfig;

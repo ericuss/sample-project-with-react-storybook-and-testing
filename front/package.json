@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest --reporters=\"jest-junit\""
   },
   "dependencies": {
     "@storybook/react-vite": "^7.6.17",
@@ -43,6 +43,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "jest-junit": "^16.0.0",
     "sass": "^1.71.1",
     "scss": "^0.2.4",
     "storybook": "^7.6.17",
