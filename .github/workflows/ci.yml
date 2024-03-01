@@ -3,6 +3,9 @@
 
 name: CI
 
+permissions:
+  checks: write
+  
 on:
   push:
     branches: [ "main" ]
