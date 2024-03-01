@@ -6,7 +6,6 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -14,7 +13,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -26,8 +24,9 @@
       "@components/*": ["components/*"],
       "@core/*": ["core/*"],
       "@pages/*": ["pages/*"],
-      "@styles/*": ["styles/*"],
+      "@styles/*": ["styles/*"]
     },
+    "esModuleInterop": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

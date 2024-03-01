@@ -18,7 +18,7 @@ export const Characters: FC = () => {
       <div>
         <ul>
           {
-            characters.data?.results.map(c => <li>{c.name} - {c.species}</li>)
+            characters.data?.results.map(c => <li key={c.id}>{c.name} - {c.species}</li>)
           }
         </ul>
       </div>
